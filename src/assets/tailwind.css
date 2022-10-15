@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
+
+/* Applies */
+
+.bodyStyle {
+	@apply h-[100vh] bg-bodyBackground flex justify-center items-center;
+}
+
+.boxStyle {
+	@apply md:w-[450px] w-[300px] h-[300px] bg-boxBackground rounded-xl relative text-center flex flex-col justify-center gap-6;
+}
+
+.diceStyle {
+	@apply absolute top-[270px] md:left-[45%] left-[42%] bg-diceBackground h-[55px] w-[55px] rounded-full flex justify-center items-center cursor-pointer bg-opacity-80;
+}
