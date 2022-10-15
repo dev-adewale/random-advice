@@ -36,6 +36,7 @@ Generate a new piece of advice by clicking the dice icon
 - Semantic HTML5 markup
 - Tailwind CSS
 - Typescript
+- Axios
 - Random advice generator API from [AdviceSlip](https://api.adviceslip.com/)
 - Desktop-first workflow
 
